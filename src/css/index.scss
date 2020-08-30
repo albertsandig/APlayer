@@ -20,7 +20,7 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
     svg {
         width: 100%;
         height: 100%;
-        
+
         path,
         circle {
             fill: #fff;
@@ -59,7 +59,7 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
 
     &.aplayer-narrow {
         width: $aplayer-height;
-        
+
         .aplayer-info {
             display: none;
         }
@@ -212,18 +212,29 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
     }
 
     .aplayer-icon {
+        /*
         width: 15px;
         height: 15px;
+        */
+        width: 20px;
+        height: 20px;
         border: none;
         background-color: transparent;
         outline: none;
         cursor: pointer;
-        opacity: .8;
+        /* opacity: .8; */
         vertical-align: middle;
         padding: 0;
         font-size: 12px;
         margin: 0;
         display: inline-block;
+        
+        background-color: #d6d6d6;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+
+
 
         path {
             transition: all .2s ease-in-out;
