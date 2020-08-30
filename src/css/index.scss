@@ -212,12 +212,14 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
     }
 
     .aplayer-icon {
-        /*
         width: 15px;
         height: 15px;
-        */
+
+        /*
         width: 20px;
         height: 20px;
+        */
+
         border: none;
         background-color: transparent;
         outline: none;
@@ -228,11 +230,12 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
         font-size: 12px;
         margin: 0;
         display: inline-block;
-        
+
+        /*
         background-color: #d6d6d6;
         padding: 5px;
-        font-weight: bold;
         border-radius: 5px;
+        */
 
 
 
